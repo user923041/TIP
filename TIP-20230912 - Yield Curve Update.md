@@ -23,6 +23,8 @@ To help make the Taraxa ecosystem more sustainable, this proposal targets the fo
 
 According to the stated design goals, I propose the following yield curve design. 
 
+### Definitions
+
 $\ S_c →$ current total supply
 
 $\ S_m →$ maximum supply
@@ -35,15 +37,18 @@ $\ T_r →$ number of time windows for max yields to be given out
 
 $\ Y_c →$ current yield for reward time window
 
-Yc=Sm-ScDcSctTr
+### Proposed Yield Equation 
+
+$\ Y_c=\left(S_m-Sc\right) \left(D_c \over S_c\right) \left(Δt \over T_r\right)$
+
 
 This design gives you the total staking yield to be given out at any given reward time window. 
 
 First, we can gut-check this design by plugging in a few min/max assumptions into the equation. 
 
-Sm=Sc means the current supply has reached the maximum supply, making all future staking yields zero
-Dc=0 means there is no delegation / staking, which again means all staking  yields are zero
-Dc=Sc means, if ever the total current supply were to be fully delegated (impossible), then the maximum possible yield at that given moment is being given out in the time interval t, and if Dc=Sc is sustained for a period of Tr then all remaining possible staking yields will be given out in the period Tr
+- Sm=Sc means the current supply has reached the maximum supply, making all future staking yields zero
+- Dc=0 means there is no delegation / staking, which again means all staking  yields are zero
+- Dc=Sc means, if ever the total current supply were to be fully delegated (impossible), then the maximum possible yield at that given moment is being given out in the time interval t, and if Dc=Sc is sustained for a period of Tr then all remaining possible staking yields will be given out in the period Tr
 
 Second, we can plot a few graphs to gain further intuition for this design. 
 
