@@ -1,4 +1,24 @@
-# TIP-20230912 - Taraxa Yield Curve Update
+# TIP-2 - Cap TARA's Total Supply
+
+Author(s): Steven Pu [@reedvoid](https://github.com/reedvoid)
+
+Created: 2023-09-12
+
+Discussion: [https://discord.com/channels/419749122556297216/1143250004585218128](https://discord.com/channels/419749122556297216/1143250004585218128)
+
+
+## Table of Contents
+
+- [Summary](#summary)
+- Motivation
+- Specification
+- Rationale
+- Backwards Compatibility
+- Security Considerations
+- Copyright
+
+
+
 
 If you haven’t already, please read the article [on Staking Yields](https://www.taraxa.io/posts/blockchain101/on-staking-yields-2bb2d2c9db449d20d17d1a82fe4193bb) to get some background information on staking, yield curves, and references to how a few well-known PoS Layer-1 projects are handling this piece of their economic design. 
 
@@ -106,6 +126,8 @@ Trnumber of time windows for max yields to be given out
 Yccurrent yield for reward time window
 
 Yc=Sm-ScDcSctTr
+
+### Summary
 
 with, 
 
