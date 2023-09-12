@@ -43,7 +43,7 @@ To help make the Taraxa ecosystem more sustainable, this proposal targets the fo
 
 ### Proposed Yield Curve Design
 
-According to the stated design goals, I propose the following yield curve design. 
+According to the stated design goals, we propose the following yield curve design. 
 <br><br>
 
 #### Definitions
