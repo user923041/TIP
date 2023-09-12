@@ -18,6 +18,11 @@ Discussion: [https://discord.com/channels/419749122556297216/1143250004585218128
 - Copyright
 
 
+## Summary
+
+Cap TARA's totaly supply to 12 billion, and adopt the staking yield curve as defined by: $\ Y_c=\left(S_m-Sc\right) \left(D_c \over S_c\right) \left(Δt \over T_r\right)$
+
+
 
 
 If you haven’t already, please read the article [on Staking Yields](https://www.taraxa.io/posts/blockchain101/on-staking-yields-2bb2d2c9db449d20d17d1a82fe4193bb) to get some background information on staking, yield curves, and references to how a few well-known PoS Layer-1 projects are handling this piece of their economic design. 
@@ -127,7 +132,7 @@ Yccurrent yield for reward time window
 
 Yc=Sm-ScDcSctTr
 
-## Summary
+
 
 with, 
 
