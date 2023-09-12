@@ -48,23 +48,30 @@ According to the stated design goals, I propose the following yield curve design
 
 #### Definitions
 
-$\ S_c →$ current total supply
-
-$\ S_m →$ maximum supply
-
-$\ D_c →$ current total delegation (staking)
-
-$\ Δt →$ reward time window
-
-$\ T_r →$ number of time windows for max yields to be given out
-
-$\ Y_c →$ current yield for reward time window
+- $\ S_c →$ current total supply
+- $\ S_m →$ maximum supply
+- $\ D_c →$ current total delegation (staking)
+- $\ Δt →$ reward time window
+- $\ T_r →$ number of time windows for max yields to be given out
+- $\ Y_c →$ current yield for reward time window
 <br><br>
 
 #### Proposed Yield Equation
 
 $\ Y_c=\left(S_m-Sc\right) \left(D_c \over S_c\right) \left(Δt \over T_r\right)$
 <br><br>
+
+#### Proposed Variable Values 
+
+Among all the variables, $\ S_m$ and $\ T_r$ are assumptions that need to be defined. The remaining variables are naturally occurring. We propose the following, 
+
+- $\ S_m$ = 12 billion TARA$
+- $\ T_r$ = 1 calendar year (365 days) worth of Δt, with Δt=3.7s currently$
+<br><br><br>
+
+## Rationale
+
+### Gut-Checks
 
 We can gut-check this design by plugging in a few min/max assumptions into the equation. 
 
@@ -92,52 +99,38 @@ In [2], if we assume increasing staking levels - which is what has been happenin
 In [3], we illustrate that, if staking rate is increasing, then staking yields are given out much faster and the ecosystem reaches maximum supply much faster than if staling rate stays fixed. 
 <br><br>
 
-#### Proposed Variable Values 
-
-Among all the variables, $\ S_m$ and $\ T_r$ are assumptions that need to be defined. The remaining variables are naturally occurring. We propose the following, 
-
-$\ S_m=12 billion TARA$
-$\ T_r=1 calendar year (365 days) worth of Δt, with Δt=3.7s currently$
-<br><br><br>
-
-## Rationale
-
-Rationale for  Sm:  
+### Supply Cap Rationale 
 
 The selection of the total supply cap to be 12 billion TARA was done to ensure there’s a relatively smooth transition between the current yield to this future yield. In implementing any large change, it’s important to make sure that the transition is gradual, so that all ecosystem participants have time to adjust. A selection of 12 billion TARA cap ensures that given the current staking level, the annualized yield would not be too far off from what it is right now. 
 
 Given current staking and supply numbers, 
 
-Sc= 10.246 billion
-Sm= 12 billion
-Dc= 1.968 billion
-tTr=1 for simplicity, assuming we give out rewards once a year
+- $\ S_c$ = 10.246 billion
+- $\ S_m$ = 12 billion
+- $\ D_c$ = 1.968 billion
+- $\ Δt \over T_r = 1$ for simplicity, assuming we give out rewards once a year
 
-We see that the annualized staking yield rate is, 
+We see that the annualized staking yield rate $\ Y_c \over D_c$ = 17.1%, which is very close to what stakers and validators expect right now. 
 
-YcDc=17.1%
+### Time Window Factor Rationale
 
-So this is very close to what stakers and validators expect right now. 
-
-Rationale for  Tr:  
-
-The rationale for selecting Tr to be 1 calendar year (365 days) worth of t is simply because people are used to thinking in terms of calendar years. The smaller Tr is, the faster yields are given out, and vice versa. It’s useful to think that, if Dc=Sc for a whole year, that is, the total current supply was to be fully delegated (impossible but let’s assume it is) for a whole year, then all remaining coins from the current supply and the maximum will be given out in a single year. 
+The rationale for selecting $\ T_r$ to be 1 calendar year (365 days) worth of $\ Δt$ is simply because people are used to thinking in terms of calendar years. The smaller $\ T_r$ is, the faster yields are given out, and vice versa. It’s useful to think that, if $\ D_c=S_c$ for a whole year, that is, the total current supply was to be fully delegated (impossible but let’s assume it is) for a whole year, then all remaining coins from the current supply and the maximum will be given out in a single year. 
+<br><br><br>
 
 
-Consolidated Proposed Yield Curve Design
+## Backwards Compatibility
 
-Sccurrent total supply
-Smmaximum supply
-Dccurrent total delegation
-treward time window
-Trnumber of time windows for max yields to be given out 
-Yccurrent yield for reward time window
-
-Yc=Sm-ScDcSctTr
+This TIP will require a hardfork. 
+<br><br><br>
 
 
+## Security Considerations
 
-with, 
+Security implication is minimal. The only potential problem is that, as staking yields decline over time, if transaction fees do not increase accordingly to make up the difference, it may create a disincentive in the ecosystem to stake to and operate validators, leading to a potential loss of decentralization. 
+<br><br><br>
 
-Sm=12 billion TARA
-Tr1 calendar year (365 days) worth of t, with t3.7s currently
+
+## Copyright
+
+All Taraxa Improvement Proposals follow the same [license](https://github.com/Taraxa-project/TIP/blob/main/LICENSE). 
+
