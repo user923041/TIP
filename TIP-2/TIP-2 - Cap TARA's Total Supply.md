@@ -11,7 +11,7 @@ Discussion: [https://discord.com/channels/419749122556297216/1143250004585218128
 
 - [Summary](#summary)
 - [Motivation](#motivation)
-- [Specification](#specification)
+- [Specifications](#specifications)
 - [Rationale](#rationale)
 - [Backwards Compatibility](#backwards-compatibility)
 - [Security Considerations](#security-considerations)
@@ -61,7 +61,7 @@ $\ T_r →$ number of time windows for max yields to be given out
 $\ Y_c →$ current yield for reward time window
 <br><br>
 
-#### Proposed Yield Equation 
+#### Proposed Yield Equation
 
 $\ Y_c=\left(S_m-Sc\right) \left(D_c \over S_c\right) \left(Δt \over T_r\right)$
 <br><br>
@@ -71,32 +71,36 @@ We can gut-check this design by plugging in a few min/max assumptions into the e
 - $\ S_m=S_c$ means the current supply has reached the maximum supply, making all future staking yields zero
 - $\ D_c=0$ means there is no delegation / staking, which again means all staking  yields are zero
 - $\ D_c=S_c$ means, if ever the total current supply were to be fully delegated (impossible), then the maximum possible yield at that given moment is being given out in the time interval $\ Δt$, and if $\ D_c=S_c$ is sustained for a period of Tr then all remaining possible staking yields will be given out in the period $\ T_r$
+<br><br>
 
 ### Sample Simulations 
 
 We can plot a few simulated graphs to gain further intuition for this design. 
 
-
+![Staking Yield Rate and Overall Inflation Rate with Fixed Staking Levels](https://github.com/Taraxa-project/TIP/blob/main/TIP-2/tip-2-figure_1.png)
 
 In [1], keeping staking levels constant, we see that staking yields and overall ecosystem inflation rate decays over time and both asymptotically approach zero. 
+<br><br>
 
-
-
+![Staking Yield Rate and Overall Inflation Rate with Increasing Staking Levels](https://github.com/Taraxa-project/TIP/blob/main/TIP-2/tip-2-figure_2.png)
 
 In [2], if we assume increasing staking levels - which is what has been happening in the Taraxa ecosystem, then the staking yields and inflation rates decay much more rapidly. This is because as staking levels rise, given the same staking yields, more of the remaining supply is given out. 
+<br><br>
 
-
-
+![Cumulative Staking Yields for Fixed vs. Increasing Staking Levels](https://github.com/Taraxa-project/TIP/blob/main/TIP-2/tip-2-figure_3.png)
 
 In [3], we illustrate that, if staking rate is increasing, then staking yields are given out much faster and the ecosystem reaches maximum supply much faster than if staling rate stays fixed. 
+<br><br>
 
+#### Proposed Variable Values 
 
-Proposed Design Variables
+Among all the variables, $\ S_m$ and $\ T_r$ are assumptions that need to be defined. The remaining variables are naturally occurring. We propose the following, 
 
-Among all the variables, Sm and Tr are assumptions that need to be defined. The remaining variables are naturally occurring. We propose the following, 
+$\ S_m=12 billion TARA$
+$\ T_r=1 calendar year (365 days) worth of Δt, with Δt=3.7s currently$
+<br><br><br>
 
-Sm=12 billion TARA
-Tr1 calendar year (365 days) worth of t, with t3.7s currently
+## Rationale
 
 Rationale for  Sm:  
 
