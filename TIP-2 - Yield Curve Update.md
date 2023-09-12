@@ -127,7 +127,7 @@ Yccurrent yield for reward time window
 
 Yc=Sm-ScDcSctTr
 
-### Summary
+## Summary
 
 with, 
 
