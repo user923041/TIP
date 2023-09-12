@@ -66,7 +66,7 @@ $\ Y_c=\left(S_m-Sc\right) \left(D_c \over S_c\right) \left(Δt \over T_r\right)
 Among all the variables, $\ S_m$ and $\ T_r$ are assumptions that need to be defined. The remaining variables are naturally occurring. We propose the following, 
 
 - $\ S_m$ = 12 billion TARA$
-- $\ T_r$ = 1 calendar year (365 days) worth of Δt, with Δt=3.7s currently$
+- $\ T_r$ = 1 calendar year (365 days) worth of Δt, with Δt=3.7s currently
 <br><br><br>
 
 ## Rationale
