@@ -5,7 +5,7 @@ Author(s): Steven Pu [@reedvoid](https://github.com/reedvoid)
 Created: 2023-09-12
 
 Discussion: [https://discord.com/channels/419749122556297216/1143250004585218128](https://discord.com/channels/419749122556297216/1143250004585218128)
-
+<br><br><br>
 
 ## Table of Contents
 
@@ -16,39 +16,37 @@ Discussion: [https://discord.com/channels/419749122556297216/1143250004585218128
 - [Backwards Compatibility](#backwards-compatibility)
 - [Security Considerations](#security-considerations)
 - [Copyright](#copyright)
-
+<br><br><br>
 
 ## Summary
 
 Cap TARA's totaly supply to 12 billion, and adopt the staking yield curve as defined by: $\ Y_c=\left(S_m-Sc\right) \left(D_c \over S_c\right) \left(Δt \over T_r\right)$
+<br><br><br>
 
+## Motivation
 
+Currently the Taraxa mainnet has a fixed staking yield of ~18% APY, the fixed staking yield had always been introduced during the 2021 bull cycle when the crypto community at large demanded a high rate of return for any staking or “staking-like” activities in order to attract participation. It was meant to attract staking participation, it was never meant to be permanent. A constant staking yield leads to infinite supply and is detrimental to an ecosystem's sustainability. 
 
+If you haven’t already, please read the article [on Staking Yields](https://www.taraxa.io/posts/blockchain101/on-staking-yields-2bb2d2c9db449d20d17d1a82fe4193bb) to get some background information on staking, yield curves, and references to how a few well-known PoS Layer-1 projects are handling this piece of their economic design.
+<br><br><br>
 
-If you haven’t already, please read the article [on Staking Yields](https://www.taraxa.io/posts/blockchain101/on-staking-yields-2bb2d2c9db449d20d17d1a82fe4193bb) to get some background information on staking, yield curves, and references to how a few well-known PoS Layer-1 projects are handling this piece of their economic design. 
+## Specifications
 
-
-## Taraxa’s Current Staking Yield Curve 
-
-Currently the Taraxa mainnet has a fixed staking yield of ~18% APY, which is a little less than the originally intended annualized staking yield of 20% due to natural networking conditions and diminishing returns of difficulty reduction based on validator delegation. 
-
-The fixed staking yield had always been introduced during the 2021 bull cycle when the crypto community at large demanded a high rate of return for any staking or “staking-like” activities in order to attract participation. It was meant to attract staking participation, it was never meant to be permanent. 
-
-
-## Proposed Design Goals
+### Proposed Design Goals
 
 To help make the Taraxa ecosystem more sustainable, this proposal targets the following set of design goals. 
 
 1. Capped maximum supply 
 2. Yield curve decays and asymptotically approaches zero 
 3. Total inflation decays and asymptotically approaches zero
+<br><br>
 
-
-## Proposed Yield Curve Design
+### Proposed Yield Curve Design
 
 According to the stated design goals, I propose the following yield curve design. 
+<br><br>
 
-### Definitions
+#### Definitions
 
 $\ S_c →$ current total supply
 
@@ -61,21 +59,22 @@ $\ Δt →$ reward time window
 $\ T_r →$ number of time windows for max yields to be given out
 
 $\ Y_c →$ current yield for reward time window
+<br><br>
 
-### Proposed Yield Equation 
+#### Proposed Yield Equation 
 
 $\ Y_c=\left(S_m-Sc\right) \left(D_c \over S_c\right) \left(Δt \over T_r\right)$
+<br><br>
 
+We can gut-check this design by plugging in a few min/max assumptions into the equation. 
 
-This design gives you the total staking yield to be given out at any given reward time window. 
+- $\ S_m=S_c$ means the current supply has reached the maximum supply, making all future staking yields zero
+- $\ D_c=0$ means there is no delegation / staking, which again means all staking  yields are zero
+- $\ D_c=S_c$ means, if ever the total current supply were to be fully delegated (impossible), then the maximum possible yield at that given moment is being given out in the time interval $\ Δt$, and if $\ D_c=S_c$ is sustained for a period of Tr then all remaining possible staking yields will be given out in the period $\ T_r$
 
-First, we can gut-check this design by plugging in a few min/max assumptions into the equation. 
+### Sample Simulations 
 
-- Sm=Sc means the current supply has reached the maximum supply, making all future staking yields zero
-- Dc=0 means there is no delegation / staking, which again means all staking  yields are zero
-- Dc=Sc means, if ever the total current supply were to be fully delegated (impossible), then the maximum possible yield at that given moment is being given out in the time interval t, and if Dc=Sc is sustained for a period of Tr then all remaining possible staking yields will be given out in the period Tr
-
-Second, we can plot a few graphs to gain further intuition for this design. 
+We can plot a few simulated graphs to gain further intuition for this design. 
 
 
 
