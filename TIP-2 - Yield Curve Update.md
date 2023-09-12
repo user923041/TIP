@@ -10,12 +10,12 @@ Discussion: [https://discord.com/channels/419749122556297216/1143250004585218128
 ## Table of Contents
 
 - [Summary](#summary)
-- Motivation
-- Specification
-- Rationale
-- Backwards Compatibility
-- Security Considerations
-- Copyright
+- [Motivation](#motivation)
+- [Specification](#specification)
+- [Rationale](#rationale)
+- [Backwards Compatibility](#backwards-compatibility)
+- [Security Considerations](#security-considerations)
+- [Copyright](#copyright)
 
 
 ## Summary
