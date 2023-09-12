@@ -111,6 +111,7 @@ Given current staking and supply numbers,
 - $\ Δt \over T_r$ = 1 for simplicity, assuming we give out rewards once a year
 
 We see that the annualized staking yield rate $\ Y_c \over D_c$ = 17.1%, which is very close to what stakers and validators expect right now. 
+<br><br>
 
 ### Time Window Factor Rationale
 
