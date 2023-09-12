@@ -25,7 +25,7 @@ Cap TARA's totaly supply to 12 billion, and adopt the staking yield curve as def
 
 ## Motivation
 
-Currently the Taraxa mainnet has a fixed staking yield of ~18% APY, the fixed staking yield was introduced during the 2021 bull cycle when the crypto community at large demanded a high rate of return for any staking or “staking-like” activities in order to attract participation. It was meant to attract staking participation, it was never meant to be permanent. A constant staking yield leads to infinite supply and is detrimental to an ecosystem's sustainability. 
+Currently the Taraxa mainnet has a fixed staking yield of ~18% APY, the fixed staking yield was introduced during the 2021 bull cycle when the crypto community at large demanded a high rate of return for any staking or “staking-like” activities in order to attract participation. It was meant to attract staking participation in the short-term and was never meant to be permanent. A constant staking yield leads to infinite supply and is detrimental to an ecosystem's sustainability. 
 
 If you haven’t already, please read the article [on Staking Yields](https://www.taraxa.io/posts/blockchain101/on-staking-yields-2bb2d2c9db449d20d17d1a82fe4193bb) to get some background information on staking, yield curves, and references to how a few well-known PoS Layer-1 projects are handling this piece of their economic design.
 <br><br><br>
