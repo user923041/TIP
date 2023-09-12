@@ -108,7 +108,7 @@ Given current staking and supply numbers,
 - $\ S_c$ = 10.246 billion
 - $\ S_m$ = 12 billion
 - $\ D_c$ = 1.968 billion
-- $\ Δt \over T_r = 1$ for simplicity, assuming we give out rewards once a year
+- $\ Δt \over T_r$ = 1 for simplicity, assuming we give out rewards once a year
 
 We see that the annualized staking yield rate $\ Y_c \over D_c$ = 17.1%, which is very close to what stakers and validators expect right now. 
 
