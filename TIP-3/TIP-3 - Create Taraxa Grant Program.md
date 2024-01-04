@@ -50,7 +50,6 @@ Any individual, team, and organizations of any type are welcome to apply to the 
 - Technical roadmap
 - Go to market roadmap
 - Measurable milestones tied to use of funds used for grant disbursements
-
 <br><br>
 
 ### Review Process
