@@ -87,7 +87,7 @@ Grants are disbursed according to the achievewment of measureable milestones tie
 
 ### Follow-Up Grants 
 
-
+Beyond the initial grant, depending on the dev team's appraisal, there could be larger follow-up grants. However, to receive larger follow-up grants, the project in question will need to receive some degree of support from the Taraxa community in the form of a governance vote. The exact threshold of the support (e.g., number of votes, number of unique voters) will again vary depending the project. 
 <br><br><br>
 
 ## Rationale
