@@ -66,13 +66,13 @@ Taraxa Grant Program is meant to fund projects that are,
 - Decentralized: only truly permissionless and decentralized projects will be considered. 
 - Open-source: only projects founded on the idea of open collaboration and innovation will be considered.
 - Uniquely contributes to Taraxa’s ecosystem: projects that add unique value to the Taraxa ecosystem will be prioritized. This can be a truly unique piece of technology or application, or it could simply be something that Taraxa’s ecosystem sorely lacks but already exists elsewhere.
-- Clear use of funds: thoughtful, practical, and truthful explanation of how funds will be used to accomplish measureable milestones. 
+- Clear use of funds: thoughtful, practical, and truthful explanation of how funds will be used to accomplish measurable milestones. 
 - Ability to execute: convince us that you have what it takes to not just execute but also persist till your vision comes to fruition. 
 
 Taraxa Grant Program is NOT meant to be used for, 
 
 - Marketing: to ensure regulatory compliance, grants will only be given to fund technical development, not marketing.
-- Substitute for venture funding: to ensure that ecosystem projects simulatenously can stand on their own with sufficient market and user validation, as well as minimizing the long-term undue influence of the Taraxa Grant Program on any ecosystem project, ensuring their independence. 
+- Substitute for venture funding: to ensure that ecosystem projects simultaneously can stand on their own with sufficient market and user validation, as well as minimizing the long-term undue influence of the Taraxa Grant Program on any ecosystem project, ensuring their independence. 
 <br><br>
 
 ### Grant Size
@@ -82,12 +82,12 @@ Grant sizes will be variably adjusted according to each applicant's project natu
 
 ### Grant Disbursement Process
 
-Grants are disbursed according to the achievewment of measureable milestones tied to use of funds as agreed upon between the applicant and the dev team conducting reviews. The Taraxa dev team will be available to meet with grant recipients on a regular basis, not only to receive updates on projects but also to see what help beyond the funds the dev team can help to provide.
+Grants are disbursed according to the achievement of measurable milestones tied to use of funds as agreed upon between the applicant and the dev team conducting reviews. The Taraxa dev team will be available to meet with grant recipients on a regular basis, not only to receive updates on projects but also to see what help beyond the funds the dev team can help to provide.
 <br><br>
 
 ### Follow-Up Grants 
 
-Beyond the initial grant, depending on the dev team's appraisal, there could be larger follow-up grants. However, to receive larger follow-up grants, the project in question will need to receive some degree of support from the Taraxa community in the form of a governance vote. The exact threshold of the support (e.g., number of votes, number of unique voters) will again vary depending the project. 
+Beyond the initial grant, depending on the dev team's appraisal, there could be larger follow-up grants. However, to receive larger follow-up grants, the project in question will need to receive some degree of support from the Taraxa community in the form of a governance vote. The exact threshold of the support (e.g., number of votes, number of unique voters) will again vary depending on the project. 
 <br><br><br>
 
 ## Rationale
@@ -104,7 +104,7 @@ Since the Community & Ecosystem funds were specifically set aside to help drive 
 The application process is pretty standard, including KYC, which is included for compliance reasons. 
 <br><br>
 
-Since every project is going to be quite different, it only makes sense that they're evaluated on individualized basis. The core dev team is a natural choice to conduct the evaluations for the first round of the grants, since they possess the technical know-how to not only conduct the evaluations but also to offer assistance should it become necessary. 
+Since every project is going to be quite different, it only makes sense that they're evaluated on an individualized basis. The core dev team is a natural choice to conduct the evaluations for the first round of the grants, since they possess the technical know-how to not only conduct the evaluations but also to offer assistance should it become necessary. 
 <br><br>
 
 While each applicant to the Taraxa Grant Program is evaluated on their individualized merits, there should be a set of high-level guidelines, which is why the Evaluation Criteria exist. 
@@ -116,7 +116,7 @@ Grant sizes are variable but for the first round an internal cap should exist bu
 Grants are never to be given out in one lump sum, as lump-sum disbursement highly incentivizes bounty hunters who have no interest in actually building and maintaining a sustainable project in the Taraxa ecosystem. Grants disbursed according to quantifiable milestones is fair and holds all parties accountable, positively incentivizing sustainable & long-term development as well as maintenance of high quality projects. 
 <br><br>
 
-Certain projects may show significant promise but require follow-up grants to help further their development. Since more grants are given over longer periods of time, the hurdle for a project to receive a follow-up grant needs to be higher, specifically it needs to demonstrate that it has significant support from the Taraxa community, quantified in the form of a governane vote. The exact voting result hurdle for each project may be again different, but needs to take into account not just the total # of votes, but also the amount of unique wallets and potentially the wallets' age. These considerations are designed to encourage projects to actually build something that the community likes and wants and to be responsive to community feedback. 
+Certain projects may show significant promise but require follow-up grants to help further their development. Since more grants are given over longer periods of time, the hurdle for a project to receive a follow-up grant needs to be higher, specifically it needs to demonstrate that it has significant support from the Taraxa community, quantified in the form of a governance vote. The exact voting result hurdle for each project may be again different, but needs to take into account not just the total # of votes, but also the amount of unique wallets and potentially the wallets' age. These considerations are designed to encourage projects to actually build something that the community likes and wants and to be responsive to community feedback. 
 <br><br><br>
 
 
