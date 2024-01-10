@@ -43,12 +43,10 @@ The Taraxa Grant Program's funds will be drawn from the overall Community & Ecos
 Any individual, team, and organizations of any type are welcome to apply to the Taraxa Grant Program. The initial application into the Taraxa Grant Program will require the following details,
 
 - Core team members' profiles
-- Every team member's Taraxa Community Site account with successfully passed KYC
-- Working prototype and open-sourced Github repositories
-- Any existing traction in other ecosystems
+- A Taraxa Community Site account with successfully passed KYC
+- A working prototype or demo of what they want to build
 - Benefits your project will bring to the Taraxa ecosystem and its community
-- Technical roadmap
-- Go to market roadmap
+- Technical and go to market roadmaps
 - Measurable milestones tied to use of funds used for grant disbursements
 <br><br>
 
@@ -77,7 +75,7 @@ Taraxa Grant Program is NOT meant to be used for,
 
 ### Grant Size
 
-Grant sizes will be variably adjusted according to each applicant's project nature and needs. 
+Grant sizes will be variably adjusted according to each applicant's project nature and needs. There will be an internal soft cap of how much grants are disbursed in any given calendar year.
 <br><br>
 
 ### Grant Disbursement Process
@@ -87,7 +85,11 @@ Grants are disbursed according to the achievement of measurable milestones tied 
 
 ### Follow-Up Grants 
 
-Beyond the initial grant, depending on the dev team's appraisal, there could be larger follow-up grants. However, to receive larger follow-up grants, the project in question will need to receive some degree of support from the Taraxa community in the form of a governance vote. The exact threshold of the support (e.g., number of votes, number of unique voters) will again vary depending on the project. 
+Beyond the initial grant, depending on the dev team's appraisal, there could be larger follow-up grants. However, to receive larger follow-up grants, the project in question will need to receive some degree of support from the Taraxa community in the form of a governance vote. The exact threshold of the support (e.g., number of votes, number of unique voters) will again vary depending on the project.
+
+### Reporting 
+
+The development team will report on the Grant Program at a minimum annual frequency, covering at a high level the Grant Program's application numbers, review funnel, total grant disbursements, etc. 
 <br><br><br>
 
 ## Rationale
@@ -111,6 +113,8 @@ While each applicant to the Taraxa Grant Program is evaluated on their individua
 <br><br>
 
 Grant sizes are variable but for the first round an internal cap should exist but remain undisclosed within the development team. Grant sizes are variable due to the aforementioned individualized nature of each applicant project. There needs to be a cap for the first round of grants simply because the Taraxa Grant Program is meant to incentivize and fund a large number and variety of projects to ensure the diversity of the ecosystem and to systematically minimize the risk of any given project failing. The reason such caps should not be disclosed is that, once a cap is disclosed, every single project will request the cap, adversely incentivizing inaccurate representations of their true use of funds. 
+<br>
+An annual soft cap exists because the Grant Program is meant to last many years. 
 <br><br>
 
 Grants are never to be given out in one lump sum, as lump-sum disbursement highly incentivizes bounty hunters who have no interest in actually building and maintaining a sustainable project in the Taraxa ecosystem. Grants disbursed according to quantifiable milestones is fair and holds all parties accountable, positively incentivizing sustainable & long-term development as well as maintenance of high quality projects. 
