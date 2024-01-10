@@ -113,7 +113,7 @@ While each applicant to the Taraxa Grant Program is evaluated on their individua
 <br><br>
 
 Grant sizes are variable but for the first round an internal cap should exist but remain undisclosed within the development team. Grant sizes are variable due to the aforementioned individualized nature of each applicant project. There needs to be a cap for the first round of grants simply because the Taraxa Grant Program is meant to incentivize and fund a large number and variety of projects to ensure the diversity of the ecosystem and to systematically minimize the risk of any given project failing. The reason such caps should not be disclosed is that, once a cap is disclosed, every single project will request the cap, adversely incentivizing inaccurate representations of their true use of funds. 
-<br>
+<br><br>
 An annual soft cap exists because the Grant Program is meant to last many years. 
 <br><br>
 
