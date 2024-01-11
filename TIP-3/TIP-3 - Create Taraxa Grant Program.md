@@ -52,9 +52,9 @@ Any individual, team, and organizations of any type are welcome to apply to the 
 
 ### Review Process
 
-Applications will be reviewed on a rolling basis by members of [Taraxa's core development team](https://www.taraxa.io/team). The dev team may reach out to applicants to request additional information and/or schedule calls as necessary. 
+Applications will be reviewed on a rolling basis by members of [Taraxa's core development team](https://www.taraxa.io/team), who will make recommendations to the Taraxa Protocol Foundation to approve grant disbursement. The dev team may reach out to applicants to request additional information and/or schedule calls as necessary. 
 
-Applicants will be notified of decisions via email.
+Applicants will be notified of decisions by the Taraxa Protocol Foundation via email.
 <br><br>
 
 ### Evaluation Criteria
@@ -80,7 +80,7 @@ Grant sizes will be variably adjusted according to each applicant's project natu
 
 ### Grant Disbursement Process
 
-Grants are disbursed according to the achievement of measurable milestones tied to use of funds as agreed upon between the applicant and the dev team conducting reviews. The Taraxa dev team will be available to meet with grant recipients on a regular basis, not only to receive updates on projects but also to see what help beyond the funds the dev team can help to provide.
+All grant funds will be disbursed through [Taraxa's Community Site](https://community.taraxa.io/) to the applicant's account with an approved KYC. Grants are disbursed according to the achievement of measurable milestones tied to use of funds as agreed upon between the applicant and the dev team conducting reviews. The Taraxa dev team will be available to meet with grant recipients on a regular basis, not only to receive updates on projects but also to see what help beyond the funds the dev team can help to provide.
 <br><br>
 
 ### Follow-Up Grants 
