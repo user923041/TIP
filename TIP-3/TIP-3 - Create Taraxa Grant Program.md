@@ -1,4 +1,4 @@
-# TIP-3 - Create Taraxa Grant Program -- WORK IN PROGRESS DRAFT 
+# TIP-3 - Create Taraxa Grant Program 
 
 Author(s): Steven Pu [@reedvoid](https://github.com/reedvoid)
 
