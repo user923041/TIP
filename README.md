@@ -13,6 +13,6 @@ This repository stores Taraxa Improvement Proposals that go up for governance vo
 ## TIP-3 - Create Taraxa Grant Program -- WORK IN PROGRESS DRAFT
 
 - [Proposal](https://github.com/Taraxa-project/TIP/blob/main/TIP-3/TIP-3%20-%20Create%20Taraxa%20Grant%20Program.md)
-- [Voting status: not yet started](https://vote.taraxa.io/#/proposal/0xdedf6d57c44363b754ba5fd767252886f677a1033a2a047d040d8b52cfd0e61f)
+- [Voting status: in progress](https://vote.taraxa.io/#/proposal/0xdedf6d57c44363b754ba5fd767252886f677a1033a2a047d040d8b52cfd0e61f)
 - Dev status: not applicable
 <br><br><br>
